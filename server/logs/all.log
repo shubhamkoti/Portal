@@ -927,3 +927,9 @@
 2026-02-21 02:13:13:1313 [31merror[39m: [31m[38163429-9a67-42bb-a57a-579d254c0b17] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
 2026-02-21 02:13:13:1313 [31merror[39m: [31m[88253bf6-293a-4a03-9993-588a084f6409] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
 2026-02-21 02:13:13:1313 [31merror[39m: [31m[5d451989-0120-48e2-8859-8ecddec961a0] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-21 20:29:00:290 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m
+2026-02-21 20:48:01:481 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m
+2026-02-21 22:09:16:916 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m
+2026-02-21 22:09:32:932 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m
+2026-02-21 22:09:41:941 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m
+2026-02-21 22:09:53:953 [33mwarn[39m: [33m[EMAIL_SERVICE] SMTP configuration incomplete. Email sending disabled.[39m

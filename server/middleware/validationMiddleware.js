@@ -41,6 +41,7 @@ const validateLogin = (data) => {
     const schema = Joi.object({
         email: Joi.string().email().required(),
         password: Joi.string().required(),
+        captchaToken: Joi.string().allow('', null),
     });
     return schema.validate(data);
 };

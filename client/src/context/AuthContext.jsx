@@ -129,8 +129,8 @@ export const AuthProvider = ({ children }) => {
         }
     }, [user?.token, user?._id]);
 
-    const login = async (email, password) => {
-        const { data } = await authAPI.login({ email, password });
+    const login = async (email, password, captchaToken) => {
+        const { data } = await authAPI.login({ email, password, captchaToken });
         setUser(data);
         localStorage.setItem('userInfo', JSON.stringify(data));
         fetchNotifications();

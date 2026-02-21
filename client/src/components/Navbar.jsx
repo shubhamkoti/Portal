@@ -24,21 +24,7 @@ const Navbar = () => {
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-2">
                             <Link to="/login" className="text-slate-400 hover:text-white px-3 py-2 rounded-md text-[11px] font-black uppercase tracking-widest transition-colors">
-                                Student
-                            </Link>
-                            <Link to="/login" className="text-slate-400 hover:text-white px-3 py-2 rounded-md text-[11px] font-black uppercase tracking-widest transition-colors">
-                                Faculty
-                            </Link>
-                            <Link to="/login" className="text-slate-400 hover:text-white px-3 py-2 rounded-md text-[11px] font-black uppercase tracking-widest transition-colors">
-                                Company
-                            </Link>
-                            <Link
-                                to={user?.role === 'admin' ? '/admin/dashboard' : '/admin/login'}
-                                title={user && user.role !== 'admin' ? "Admin access only" : ""}
-                                className={`px-3 py-2 rounded-md text-[11px] font-black uppercase tracking-widest transition-colors ${user?.role === 'admin' ? 'text-red-500 bg-red-500/10' : 'text-slate-400 hover:text-red-400'
-                                    }`}
-                            >
-                                Admin
+                                Portal Access
                             </Link>
                         </div>
                     </div>

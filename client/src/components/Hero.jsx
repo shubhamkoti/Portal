@@ -34,25 +34,17 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto"
+                        className="flex justify-center"
                     >
-                        {[
-                            { label: 'Student', path: '/login', icon: GraduationCap, color: 'text-blue-400' },
-                            { label: 'Faculty', path: '/login', icon: BookOpen, color: 'text-purple-400' },
-                            { label: 'Company', path: '/login', icon: Briefcase, color: 'text-emerald-400' },
-                            { label: 'Admin', path: '/admin/login', icon: ShieldCheck, color: 'text-red-400' },
-                        ].map((role) => (
-                            <Link
-                                key={role.label}
-                                to={role.path}
-                                className="flex flex-col items-center gap-4 p-6 glass-card border border-white/5 hover:border-white/20 transition-all group"
-                            >
-                                <div className={`p-4 rounded-2xl bg-white/5 ${role.color} group-hover:scale-110 transition-transform`}>
-                                    <role.icon className="w-8 h-8" />
-                                </div>
-                                <span className="text-sm font-black uppercase tracking-widest text-white">{role.label}</span>
-                            </Link>
-                        ))}
+                        <Link
+                            to="/login"
+                            className="group relative px-12 py-5 bg-primary-600 hover:bg-primary-700 text-white rounded-2xl flex items-center gap-4 transition-all shadow-2xl shadow-primary-600/40 transform hover:-translate-y-1 active:scale-[0.98]"
+                        >
+                            <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/10 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 skew-x-12" />
+                            <ShieldCheck className="w-6 h-6" />
+                            <span className="text-sm font-black uppercase tracking-[0.2em]">Initialize Access</span>
+                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        </Link>
                     </motion.div>
 
                     <motion.div

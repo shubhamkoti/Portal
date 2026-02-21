@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { NotificationProvider } from './context/NotificationContext';
 import { Toaster } from 'react-hot-toast';
@@ -18,7 +19,6 @@ import OpportunityDetail from './pages/OpportunityDetail';
 import Community from './pages/Community';
 import AIShortlist from './pages/AIShortlist';
 import AdminDashboard from './pages/AdminDashboard';
-import AdminLogin from './pages/AdminLogin';
 import StudentDashboard from './pages/StudentDashboard';
 import CompanyDashboard from './pages/CompanyDashboard';
 import FacultyDashboard from './pages/FacultyDashboard';
@@ -106,6 +106,12 @@ const AdminLayout = () => (
   </div>
 );
 
+const CaptchaWrapper = ({ children }) => (
+  <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}>
+    {children}
+  </GoogleReCaptchaProvider>
+);
+
 function AppRoutes() {
   const { user } = useAuth();
 
@@ -114,9 +120,9 @@ function AppRoutes() {
       {/* Public Routes */}
       <Route element={<PublicLayout />}>
         <Route path="/" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/login" replace />) : <Hero />} />
-        <Route path="/login" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/" replace />) : <Login />} />
-        <Route path="/register" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/" replace />) : <Register />} />
-        <Route path="/admin/login" element={user?.role === 'admin' ? <Navigate to="/admin/dashboard" replace /> : <AdminLogin />} />
+        <Route path="/login" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/" replace />) : <CaptchaWrapper><Login /></CaptchaWrapper>} />
+        <Route path="/register" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/" replace />) : <CaptchaWrapper><Register /></CaptchaWrapper>} />
+        <Route path="/admin/login" element={user ? (user.role ? <Navigate to={`/${user.role}/dashboard`} replace /> : <Navigate to="/" replace />) : <CaptchaWrapper><Login /></CaptchaWrapper>} />
         <Route path="/unauthorized" element={<Unauthorized />} />
       </Route>
 
