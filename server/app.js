@@ -16,6 +16,7 @@ const server = http.createServer(app);
 const io = initSocket(server);
 
 // Make io accessible in our routes/controllers
+//hi maand badak
 app.set('socketio', io);
 
 // Metrics tracking
