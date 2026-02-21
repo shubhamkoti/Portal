@@ -1,0 +1,255 @@
+2026-02-13 04:39:07:397 [31merror[39m: [31m[test-uuid-1234] POST /api/teams/698e5d93cb473f8eda75d485/invite - status: 400 - message: User is already in the team[39m
+2026-02-13 04:39:07:397 [31merror[39m: [31m[test-uuid-1234] PUT /api/teams/698e5d93cb473f8eda75d485/respond - status: 403 - message: Inivtation not found[39m
+2026-02-13 04:39:10:3910 [31merror[39m: [31m[test-uuid-1234] POST /api/student-profile/me - status: 500 - message: User validation failed: studentProfile.cpProfiles: Cast to Object failed for value "undefined" (type undefined) at path "studentProfile.cpProfiles"[39m
+2026-02-13 04:39:10:3910 [31merror[39m: [31m[test-uuid-1234] POST /api/student-profile/me - status: 401 - message: Not authorized, no token[39m
+2026-02-13 04:39:14:3914 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: Please use your college (.edu) email address[39m
+2026-02-13 04:39:14:3914 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: User already exists[39m
+2026-02-13 04:39:15:3915 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 04:40:15:4015 [31merror[39m: [31m[test-uuid-1234] POST /api/teams/698e5dd7a8131f84857502e2/invite - status: 400 - message: User is already in the team[39m
+2026-02-13 04:40:15:4015 [31merror[39m: [31m[test-uuid-1234] PUT /api/teams/698e5dd7a8131f84857502e2/respond - status: 403 - message: Inivtation not found[39m
+2026-02-13 04:41:28:4128 [31merror[39m: [31m[test-uuid-1234] POST /api/student-profile/me - status: 401 - message: Not authorized, no token[39m
+2026-02-13 04:41:30:4130 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: Please use your college (.edu) email address[39m
+2026-02-13 04:41:30:4130 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: User already exists[39m
+2026-02-13 04:41:31:4131 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 04:42:51:4251 [31merror[39m: [31m[test-uuid-1234] POST /api/student-profile/me - status: 401 - message: Not authorized, no token[39m
+2026-02-13 04:42:56:4256 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: Please use your college (.edu) email address[39m
+2026-02-13 04:42:56:4256 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/register - status: 400 - message: User already exists[39m
+2026-02-13 04:42:57:4257 [31merror[39m: [31m[test-uuid-1234] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 15:04:59:459 [31merror[39m: [31m[5dbe24de-363e-4d4d-a674-c1c3c48ad7c4] POST /api/auth/register - status: 400 - message: "studentProfile" is not allowed[39m
+2026-02-13 15:05:01:51 [31merror[39m: [31m[555efe0a-af09-4b44-b62c-702982397def] POST /api/auth/register - status: 400 - message: "studentProfile" is not allowed[39m
+2026-02-13 15:17:43:1743 [31merror[39m: [31m[8e96ee5a-6888-4b02-9a18-e4e8f4b2ab4f] PUT /api/notifications/mark-all-read - status: 404 - message: Node not found in sequence: /api/notifications/mark-all-read[39m
+2026-02-13 15:19:47:1947 [31merror[39m: [31m[10d59cfa-7085-42cf-a58b-1cb9169908f7] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-13 15:19:47:1947 [31merror[39m: [31m[74c4642b-ee35-4875-95e0-6f0297c3874d] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-13 15:19:47:1947 [31merror[39m: [31m[39ee1e2b-0bd2-458b-a1c1-98f54fbd8f36] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-13 15:19:47:1947 [31merror[39m: [31m[bb39804a-1c25-477c-9020-aeaf8c50125d] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-13 15:22:48:2248 [31merror[39m: [31m[e58025d0-b190-4ddd-b237-e194f07894ac] POST /api/auth/register - status: 500 - message: connect ETIMEDOUT 159.41.242.157:27017[39m
+2026-02-13 15:22:52:2252 [31merror[39m: [31m[20383cce-2ce4-41c9-8249-ccf51f6c5882] POST /api/auth/register - status: 500 - message: connect ETIMEDOUT 159.41.242.157:27017[39m
+2026-02-13 15:41:31:4131 [31merror[39m: [31m[89a18908-d07f-495e-ac45-39bbd992164c] POST /api/auth/register - status: 500 - message: connect ECONNABORTED 159.41.242.157:27017[39m
+2026-02-13 15:41:31:4131 [31merror[39m: [31m[f9f0a96d-de02-4ba4-bb9d-6e5436d9f443] POST /api/auth/register - status: 500 - message: connect ECONNABORTED 159.41.242.157:27017[39m
+2026-02-13 15:41:31:4131 [31merror[39m: [31m[c169e330-b059-4a8d-8e0d-0df0a7121522] POST /api/auth/register - status: 500 - message: connect ECONNABORTED 159.41.242.157:27017[39m
+2026-02-13 15:41:31:4131 [31merror[39m: [31m[6da5dd5c-a58d-4988-9cf7-1e5372a9867c] POST /api/auth/register - status: 500 - message: connect ECONNABORTED 159.41.242.157:27017[39m
+2026-02-13 16:44:44:4444 [31merror[39m: [31m[681857a1-c06f-4fb8-9ced-cc64588c81f5] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 16:44:44:4444 [31merror[39m: [31m[0039ef1d-9cf0-4a5b-a76c-81213be4b8ad] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[6026bdce-6477-4a5e-adca-37490c84fea5] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[8768daaf-e3db-46a7-8b4f-c0a1760a00b2] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[ba3b5dfb-332b-4e4d-9de5-3657b72dc088] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[2cea900a-d768-4e35-9590-6f234f4ec28d] GET /api/admin/stats - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[04d3e6f8-8906-4c90-99b7-ddad7a038146] GET /api/admin/users - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[5e475540-9a81-4dfc-b11c-544e6de8c236] GET /api/admin/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[227909e9-85ee-469b-8641-8da5d996346a] GET /api/admin/applications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[7f5f724f-8115-41f2-89b4-b2be709b0344] GET /api/experience/pending - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[9054dcf9-c7f8-44fa-b3fd-66dcd8150f5f] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[f2e5a82f-9fce-424e-8117-008361558141] GET /api/admin/stats - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[9fdef28e-a950-48f8-b0cc-cb2a3e16b642] GET /api/admin/users - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[03888f49-2a24-4fb6-80bc-66aa2df5beaa] GET /api/admin/settings - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[5f94630d-d992-409d-8968-9f0cc5e5fb5f] GET /api/admin/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[6f8efb61-3418-491c-9a59-866b9433c7dd] GET /api/admin/applications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[49e78f5c-44d4-4fed-b9ee-bb7d4d2cefb9] GET /api/experience/pending - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[20e0ce43-1fae-41cd-a46b-546e8f5bdcd0] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:18:4518 [31merror[39m: [31m[f297d65f-fa64-4af8-96e6-f31ac070beb0] GET /api/admin/settings - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:28:4528 [31merror[39m: [31m[20545297-ecee-4644-bdc6-9012f11d31d8] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[a54c1fef-0093-4b04-89c7-38cca356d7b2] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[8ed36c4f-2465-4ba4-bdc9-a97e0f80ab66] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[47736470-b11d-4ea0-9bf7-d3f371faaa4f] GET /api/admin/stats - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[1d657e65-2dc9-4d2b-85db-9d330acec6f7] GET /api/admin/users - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[71b5f8b5-230d-4e1d-bd6d-35148f8d601d] GET /api/admin/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[a7ad93ec-9c8a-472f-8e3f-d9d940131549] GET /api/admin/applications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[e3f9a9b1-1bf2-4985-b13c-446b8abd6c21] GET /api/experience/pending - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[5b00f96c-4bf3-483d-9b7b-8ec586c250f5] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[e2d64021-e4b5-4460-950f-ba8c5cdb08a6] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[8e0a5e04-fbf4-43f1-8b09-121425498d51] GET /api/admin/stats - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[24cf951a-ba83-436a-9c53-b1359b38fcd3] GET /api/admin/settings - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[ade8b01e-3894-48ce-a6bf-56b618a124b3] GET /api/admin/users - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[9a9e9392-30ca-4354-b842-4addcb09a97d] GET /api/admin/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[3eab7b4a-d2ab-414c-bf17-9eafc67f7437] GET /api/admin/applications - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[992b141c-390c-46a6-92f0-40e7559abc46] GET /api/experience/pending - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[10aaceb3-237d-461c-8d3a-866261456cf0] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:37:4537 [31merror[39m: [31m[86c73c85-77f6-45ae-bfcb-40cd186acdad] GET /api/admin/settings - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:47:4547 [31merror[39m: [31m[1e4ee8a4-21bb-4ccf-b603-f78c5f151ce9] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:45:58:4558 [31merror[39m: [31m[f90f514e-ccf1-428d-a3db-1df7244d1673] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 16:46:07:467 [31merror[39m: [31m[d7cddac5-f7d9-40b9-824e-b14b4b7248b4] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 17:00:40:040 [31merror[39m: [31m[c331b568-bd9b-4ade-ab3e-67705b37540a] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 17:05:19:519 [31merror[39m: [31m[b29744f7-08fc-4853-85c0-963fdbacd06d] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 17:31:56:3156 [31merror[39m: [31m[483330b2-58c4-40fe-9f1c-cdf28e2dad08] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 17:37:03:373 [31merror[39m: [31m[d249fb1a-6cd3-4b30-9ba4-999ebe98573b] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 17:37:41:3741 [31merror[39m: [31m[2158e849-6bfe-407d-b6f8-a06726d2f7c9] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 17:38:33:3833 [31merror[39m: [31m[6b48489e-4717-4d18-9b4d-3830d55e4501] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 18:52:51:5251 [31merror[39m: [31m[b5856187-3b2b-414c-a24e-ce303a64837c] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:00:14:014 [31merror[39m: [31m[b77a559c-6bfd-43c0-8359-aca83b866c91] GET /api/admin/system-health - status: 500 - message: read ECONNRESET[39m
+2026-02-13 19:01:31:131 [31merror[39m: [31m[42ff8581-d853-4322-a3bf-e83af0013d14] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:02:31:231 [31merror[39m: [31m[fb3531d7-d1c6-4428-91d4-cf34bc8f196a] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:03:31:331 [31merror[39m: [31m[5370a8cc-4ea8-4670-86a0-6edb3ebd37ea] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:04:31:431 [31merror[39m: [31m[048af070-b984-4fef-b55e-62caa0f3917b] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[9ae824e4-6205-4442-a2f1-4a9067be4677] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[7eee415f-915c-45b4-a45d-99883dc2213f] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[c67f8ee8-722c-4931-9fe6-408d33cb9ece] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[2d2644e3-d40c-4445-ab68-fecf6ac90acc] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[98b8efcc-3d5b-460c-b123-0ed0db58e11e] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:15:41:1541 [31merror[39m: [31m[402ed102-166f-4e07-8312-56eec816b43a] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:54:2054 [31merror[39m: [31m[11d441d3-47f6-4509-b140-87950e01dee7] GET /api/communities/my - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:54:2054 [31merror[39m: [31m[16710e32-51ea-4027-a557-4a8343d7b6bd] GET /api/communities/my - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:57:2057 [31merror[39m: [31m[fcdc06ff-0476-4a14-a27f-cbff2586d668] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:57:2057 [31merror[39m: [31m[b7b7ab1d-3c32-4c8e-8bdf-8ec4cb736387] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:57:2057 [31merror[39m: [31m[f14fa3f2-1b69-4414-99cc-5e39d0d48309] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:20:57:2057 [31merror[39m: [31m[a73dba6d-a729-4992-8820-684a40822bea] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:22:32:2232 [31merror[39m: [31m[350f2401-f8fc-4d71-8f12-042af0d41b61] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:23:32:2332 [31merror[39m: [31m[a9cbc078-89e1-4aea-967d-c7b82f6c82a7] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:24:32:2432 [31merror[39m: [31m[3d10dd83-02eb-4da8-bac2-1461557c7192] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:25:12:2512 [31merror[39m: [31m[167377ec-ba72-4c16-b580-70d7743aed74] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-13 19:42:23:4223 [31merror[39m: [31m[e83659bf-7e38-4b15-9188-37086eec2cbb] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 19:43:37:4337 [31merror[39m: [31m[ebee2e80-a8df-479b-840d-cca7406841e1] POST /api/auth/register - status: 400 - message: User already exists[39m
+2026-02-13 19:44:45:4445 [31merror[39m: [31m[edb13695-0519-4e49-8308-ae8e5d6af3ac] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-13 19:45:29:4529 [31merror[39m: [31m[1681b858-7f88-41fc-93b9-cbeb463988bd] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 19:45:30:4530 [31merror[39m: [31m[4388bc6d-3b59-4962-bd8e-cbcf4e417a86] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:45:30:4530 [31merror[39m: [31m[240c10df-6ebc-4d2d-ac14-e6ebd33f9a0b] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:45:30:4530 [31merror[39m: [31m[13aa1559-85d0-4249-af19-5dd4951ec9f3] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 19:45:30:4530 [31merror[39m: [31m[9f8879e1-7262-47d8-b664-f4a9900c3ce9] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 19:45:30:4530 [31merror[39m: [31m[7721cc5d-9766-4318-9f05-064a7a6892f0] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:26:4926 [31merror[39m: [31m[85dc9954-840c-42d7-ab2c-b7777f30cb0d] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:29:4929 [31merror[39m: [31m[ab01f9b2-5035-446f-9a1b-1fc05a6ada0e] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:30:4930 [31merror[39m: [31m[d0c30c98-5cb1-4131-abca-09f65f9c85ea] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:31:4931 [31merror[39m: [31m[21dc731d-7374-4d95-9b85-582e9a54ebac] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:31:4931 [31merror[39m: [31m[c42f6af6-c4ae-468b-b40c-fb791961042d] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:32:4932 [31merror[39m: [31m[9bc9ceaa-f1be-422e-9aca-1a1328666ddc] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:49:47:4947 [31merror[39m: [31m[f75f2c7e-e78a-437b-bf1f-8d0dc603bde5] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 19:50:14:5014 [31merror[39m: [31m[8bb1c4ab-4f2e-451d-bd24-5981e8381b4c] POST /api/opportunities - status: 401 - message: Not authorized[39m
+2026-02-13 21:10:12:1012 [31merror[39m: [31m[ab948907-217e-43be-9b87-b86136baf24e] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-13 21:10:12:1012 [31merror[39m: [31m[e618f643-9062-4c6d-a5b1-2f3368ec45f0] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-13 21:10:12:1012 [31merror[39m: [31m[5cdf6ddc-5e95-456d-9c1a-91ac032be308] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-13 21:10:12:1012 [31merror[39m: [31m[51751c1d-bed3-4254-bcc6-6c1a466bf6f5] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-13 22:49:48:4948 [31merror[39m: [31m[18ffc949-4577-4591-89f3-6ab734d4877b] GET /api/admin/system-health - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[a9c55097-4ff7-4f93-92e0-017970097e14] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[ad2316c0-2987-4f71-919c-4df784ade12b] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[20d8844c-7d34-4789-987c-55d37395f59a] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[498f6367-bf67-46c6-8f96-9bc5c61e278e] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[e2653395-237b-4b40-8e3d-b0464be5ce84] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[6ddbc27b-169b-4dce-b35d-287a95f4573e] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:43:143 [31merror[39m: [31m[52ded5ad-2597-448e-9031-4a02aea13895] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-14 21:01:56:156 [31merror[39m: [31m[f62ee1ee-901f-450d-a14d-4777a5edb6bb] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[0e0c92e6-ad33-4316-a923-916666e299e0] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[05cc3977-f595-40ea-957f-cc01f8bd1a6e] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[3971219a-91b1-4946-9ca8-8294e9c8f384] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[3e8f685b-dfd4-4efb-869c-ae71c74c7cd8] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[eaed9d5c-d914-4a6a-9554-d6760b478d73] GET /api/faculty/teams/pending - status: 401 - message: Not authorized[39m
+2026-02-14 21:02:10:210 [31merror[39m: [31m[ae6bad28-91b0-45d9-8d21-0924f9fc71e0] GET /api/faculty/projects - status: 401 - message: Not authorized[39m
+2026-02-14 21:03:55:355 [31merror[39m: [31m[82f1568b-6761-4156-9559-322167cb3a0a] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-14 21:17:07:177 [31merror[39m: [31m[540e7ca7-6dfa-4b3b-8d9b-50e7f10f3b28] POST /api/opportunities/698f1b1bf0df3af6cf737eda/apply - status: 400 - message: Your branch is not eligible for this opportunity[39m
+2026-02-14 21:32:33:3233 [31merror[39m: [31m[68c12ff7-b6bc-454c-b0f8-0f813ff7f10c] POST /api/opportunities/698f1b1bf0df3af6cf737eda/apply - status: 400 - message: Your branch is not eligible for this opportunity[39m
+2026-02-14 21:53:14:5314 [31merror[39m: [31m[1e21bbc0-ddf1-4863-a506-aee1d783cdfc] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-14 22:20:09:209 [31merror[39m: [31m[821dd8e2-3c43-4dd4-ac51-2213556b3a65] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-14 23:46:26:4626 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:46:27:4627 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:46:27:4627 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:46:30:4630 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:46:30:4630 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:47:15:4715 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:47:15:4715 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:47:19:4719 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:47:20:4720 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:53:48:5348 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:53:49:5349 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:53:56:5356 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:53:57:5357 [31merror[39m: [31m[AI_SERVICE] URL Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:59:53:5953 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-14 23:59:53:5953 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 00:00:16:016 [31merror[39m: [31m[b8b5a7fc-0a33-42f9-ac67-d82a49d2aad5] PUT /api/notifications/mark-all-read - status: 404 - message: Node not found in sequence: /api/notifications/mark-all-read[39m
+2026-02-15 04:41:32:4132 [31merror[39m: [31m[88511cfd-fe1b-4527-9479-06703b0c630c] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-15 04:41:32:4132 [31merror[39m: [31m[c606fae9-0051-43df-8bba-86ab90531e20] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-15 04:41:32:4132 [31merror[39m: [31m[56528225-db6b-4de5-ab5e-7d5cbef6cc41] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-15 04:49:13:4913 [31merror[39m: [31m[4f2ea092-62f9-4d5d-8680-c598c91fdca2] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-15 04:49:22:4922 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 04:49:23:4923 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 04:49:36:4936 [31merror[39m: [31m[9af8a9df-ccec-40f1-ad86-b867b7a44f56] GET /https://drive.google.com/file/d/1pe6Vauu68u60c-NSSEWNkpgy1m1g4b7C/view?usp=drive_link - status: 404 - message: Node not found in sequence: /https://drive.google.com/file/d/1pe6Vauu68u60c-NSSEWNkpgy1m1g4b7C/view?usp=drive_link[39m
+2026-02-15 04:49:36:4936 [31merror[39m: [31m[14e2824f-e681-4ac1-80cc-2b1d6d562fa6] GET /favicon.ico - status: 404 - message: Node not found in sequence: /favicon.ico[39m
+2026-02-15 04:51:50:5150 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 04:51:51:5151 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 04:51:56:5156 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Request failed with status code 401[39m
+2026-02-15 04:55:37:5537 [31merror[39m: [31m[88aaa17f-1e8e-44c4-9877-15bdd3353c15] POST /api/auth/login - status: 500 - message: Operation `adminsettings.findOne()` buffering timed out after 10000ms[39m
+2026-02-15 04:55:39:5539 [31merror[39m: [31m[77fb1986-cd8d-48bd-b13f-286c32ef290a] POST /api/auth/login - status: 500 - message: Operation `adminsettings.findOne()` buffering timed out after 10000ms[39m
+2026-02-15 04:56:31:5631 [31merror[39m: [31m[8d551019-5b29-4a7e-a580-d000d7f5dc92] POST /api/auth/login - status: 500 - message: Operation `adminsettings.findOne()` buffering timed out after 10000ms[39m
+2026-02-15 04:59:19:5919 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-15 04:59:19:5919 [31merror[39m: [31m[AI_SERVICE] Local File Extraction Error: Failed to extract text from PDF[39m
+2026-02-15 04:59:34:5934 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 04:59:35:5935 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 04:59:49:5949 [31merror[39m: [31m[b685bb36-22d8-48e9-9124-cece09d12792] GET /uploads/resumes/resume-1771111759751-546942840.pdf - status: 404 - message: Node not found in sequence: /uploads/resumes/resume-1771111759751-546942840.pdf[39m
+2026-02-15 17:27:26:2726 [31merror[39m: [31m[44172d9b-f0b5-4334-a85b-9b37b054a757] POST /api/opportunities/698f1b1bf0df3af6cf737eda/apply - status: 400 - message: Cooldown Active: Please wait 7 day(s) before applying to another opportunity.[39m
+2026-02-15 17:27:40:2740 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:27:41:2741 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:27:48:2748 [31merror[39m: [31m[4e969240-84f6-401b-8933-f514bfe58796] GET /uploads/resumes/resume-1771111759751-546942840.pdf - status: 404 - message: Node not found in sequence: /uploads/resumes/resume-1771111759751-546942840.pdf[39m
+2026-02-15 17:27:48:2748 [31merror[39m: [31m[604c95e0-cc66-4a98-aaa0-ccace78fff8c] GET /favicon.ico - status: 404 - message: Node not found in sequence: /favicon.ico[39m
+2026-02-15 17:28:00:280 [31merror[39m: [31m[7c3dc357-593d-4869-9694-73b8221e8483] GET /uploads/resumes/resume-1771111759751-546942840.pdf - status: 404 - message: Node not found in sequence: /uploads/resumes/resume-1771111759751-546942840.pdf[39m
+2026-02-15 17:28:47:2847 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:28:47:2847 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:28:53:2853 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:28:54:2854 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:29:20:2920 [31merror[39m: [31m[AI_SERVICE] File Fetching/Extraction Error: Invalid URL[39m
+2026-02-15 17:35:48:3548 [31merror[39m: [31m[a8d7a1a9-ccac-4b4f-8d9b-baead50c201f] PUT /api/notifications/mark-all-read - status: 404 - message: Node not found in sequence: /api/notifications/mark-all-read[39m
+2026-02-15 17:36:17:3617 [31merror[39m: [31m[d58054cc-1ac8-4194-ab98-a962db2250ac] PUT /api/notifications/mark-all-read - status: 404 - message: Node not found in sequence: /api/notifications/mark-all-read[39m
+2026-02-15 18:00:08:08 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-15 18:00:08:08 [31merror[39m: [31m[9e164f9a-244c-4bd5-a133-ecce7c7dd080] POST /api/upload/resume - status: 500 - message: Failed to extract text from PDF[39m
+2026-02-15 18:05:34:534 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-15 18:05:34:534 [31merror[39m: [31m[5b46ae67-d891-4f9e-8800-a0f7b29ff348] POST /api/upload/resume - status: 500 - message: Failed to extract text from PDF[39m
+2026-02-15 18:17:34:1734 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-15 18:17:34:1734 [31merror[39m: [31m[910abe1a-07f7-40ed-bcb4-05b56db00967] POST /api/upload/resume - status: 400 - message: The PDF file structure is unreadable or corrupted. Please try a different version.[39m
+2026-02-15 18:18:24:1824 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-15 18:18:24:1824 [31merror[39m: [31m[9531bac6-59eb-4e2a-ab8c-15c98eb6c82e] POST /api/upload/resume - status: 400 - message: The PDF file structure is unreadable or corrupted. Please try a different version.[39m
+2026-02-15 18:25:29:2529 [31merror[39m: [31m[AI_SERVICE] OpenAI Skill Parsing Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.[39m
+2026-02-15 18:33:44:3344 [31merror[39m: [31m[0aea0298-0e3d-4454-907b-31c8d3f969f6] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-15 18:33:44:3344 [31merror[39m: [31m[473ba4f9-a9ed-4560-93d7-129fc6c63faa] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-15 18:33:44:3344 [31merror[39m: [31m[f5dc81a0-6929-47b0-b6d9-c862b4ef6d50] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-15 18:33:44:3344 [31merror[39m: [31m[0ec9c8dd-4e4b-4770-9569-9bbc8a4da940] GET /api/experience/pending - status: 403 - message: User role student is not authorized to access this route[39m
+2026-02-15 18:38:20:3820 [31merror[39m: [31m[d99b94cd-f356-4f7c-bd7a-657bd72ed7c0] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-15 18:38:24:3824 [31merror[39m: [31m[5b8c14a2-5647-43e8-8c5a-a1b803b04d46] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-15 18:38:40:3840 [31merror[39m: [31m[ec6af9db-7c16-4248-b5a2-eadfac47b5c7] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-15 18:39:01:391 [31merror[39m: [31m[6f9bb4b7-b1d6-4f8f-9c81-2a94cb9bba7b] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-16 19:11:27:1127 [31merror[39m: [31m[7092d4b2-a6a6-47fc-85fe-230f907302ff] POST /api/communities - status: 403 - message: You do not have permission to create this type of community[39m
+2026-02-16 19:11:37:1137 [31merror[39m: [31m[413f62ce-24fa-41ac-8b8c-29624601087f] POST /api/communities - status: 403 - message: You do not have permission to create this type of community[39m
+2026-02-16 19:12:31:1231 [31merror[39m: [31m[fd315638-064d-48da-8db4-ff196201fccb] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-16 19:12:35:1235 [31merror[39m: [31m[96103b08-d6b2-4d5c-a827-df0e9bbc4605] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-16 19:12:37:1237 [31merror[39m: [31m[796d4088-6589-41cc-90ce-c62086b81138] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-16 19:14:03:143 [31merror[39m: [31m[10101528-ff4b-4d85-8a57-7a7e0862483a] POST /api/auth/register - status: 400 - message: Please use your college (.edu) email address[39m
+2026-02-16 19:14:12:1412 [31merror[39m: [31m[677d0f49-a84d-4a98-8bee-743f547113ef] POST /api/auth/register - status: 400 - message: Please use your college (.edu) email address[39m
+2026-02-16 19:37:38:3738 [31merror[39m: [31m[0ff19a89-1e83-4bb1-8bf0-2174bf3f598b] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-16 19:37:40:3740 [31merror[39m: [31m[c79168e2-3fe4-459d-8526-7a412333e881] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-16 19:38:06:386 [31merror[39m: [31m[77662064-39d1-49c7-a4bc-2bbc587f6c94] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-16 22:13:24:1324 [31merror[39m: [31m[4e8ee4e0-04b5-4c82-ba9f-778f00614161] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-16 22:13:26:1326 [31merror[39m: [31m[0dde2793-8609-4136-9777-070d1eef5b22] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-16 22:21:17:2117 [31merror[39m: [31m[fdc1db7b-10da-4ad0-975e-4b53bbb60279] PUT /api/notifications/mark-all-read - status: 404 - message: Node not found in sequence: /api/notifications/mark-all-read[39m
+2026-02-17 18:41:10:4110 [31merror[39m: [31m[73af8c57-59c2-49b8-83ff-238022e281c3] GET /api/notifications?page=1 - status: 500 - message: connect ETIMEDOUT 159.41.242.157:27017[39m
+2026-02-17 18:41:17:4117 [31merror[39m: [31m[a21fb93f-7a4c-4aab-b2f0-8c28c737bd52] GET /api/notifications - status: 500 - message: read ECONNRESET[39m
+2026-02-17 18:42:24:4224 [31merror[39m: [31m[020ff00c-87be-476d-a994-a2dfd89e5cf3] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-17 18:42:47:4247 [31merror[39m: [31m[d930e4bb-7bc7-472a-815a-e669e292cfaf] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-17 18:42:53:4253 [31merror[39m: [31m[450db9e7-d5ec-4e99-9f34-1a60f7737d3a] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-17 18:42:55:4255 [31merror[39m: [31m[f0897907-7109-4992-9c95-ba66f7b1d208] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:11:39:1139 [31merror[39m: [31m[SEED] Error seeding admin: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 03:14:05:145 [31merror[39m: [31m[SEED] Error seeding admin: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 03:14:47:1447 [31merror[39m: [31m[34a54ffe-aacd-47b0-9901-794029653904] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:14:53:1453 [31merror[39m: [31m[c2150b01-36f2-4ada-b4dd-a328c89d1add] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:14:58:1458 [31merror[39m: [31m[d86e1427-a5eb-4b79-b6af-b4ffac947960] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:15:09:159 [31merror[39m: [31m[59303d1b-8ef0-47ae-9ba5-bc034e113ff4] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:15:11:1511 [31merror[39m: [31m[63076b94-4db6-4d79-bd51-6f3e752a53f4] POST /api/auth/login - status: 401 - message: Invalid email or password[39m
+2026-02-20 03:16:58:1658 [31merror[39m: [31m[SEED] Error seeding admin: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 10:15:57:1557 [31merror[39m: [31m[SEED] Error seeding admin: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 10:49:54:4954 [31merror[39m: [31m[a66e9c6e-35d9-46b2-8b20-bcc079fc9d19] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 11:00:14:014 [31merror[39m: [31m[SEED] Error seeding admin: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-20 11:02:15:215 [31merror[39m: [31m[8b1d4ceb-e369-48e8-bbe7-c2673eb4b4ff] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-21 01:10:40:1040 [31merror[39m: [31m[6e12b79e-6ec6-4c40-be71-3080206c105e] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-21 01:10:40:1040 [31merror[39m: [31m[3b60d642-c85f-4516-9e7d-36c58d801cf7] GET /api/notifications - status: 401 - message: Not authorized[39m
+2026-02-21 01:10:40:1040 [31merror[39m: [31m[9a5cfc01-80fe-4872-9044-c8035998a4c0] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-21 01:11:44:1144 [31merror[39m: [31m[18d704a0-9173-4039-b304-e950b52a25bf] POST /api/auth/register - status: 400 - message: Faculty registration requires an institutional email address (.edu, .ac.in, or .edu.in)[39m
+2026-02-21 01:11:50:1150 [31merror[39m: [31m[e0d8c822-9993-445f-a7b0-40d3b480535d] POST /api/auth/register - status: 400 - message: Faculty registration requires an institutional email address (.edu, .ac.in, or .edu.in)[39m
+2026-02-21 01:12:18:1218 [31merror[39m: [31m[d0baf282-b621-4032-99e8-d080ea41f45b] POST /api/auth/register - status: 500 - message: User validation failed: studentProfile.branch: Path `studentProfile.branch` is required.[39m
+2026-02-21 01:15:55:1555 [31merror[39m: [31m[05b2d0de-d91f-489f-84ee-8b8c1448d397] POST /api/auth/login - status: 500 - message: getaddrinfo ENOTFOUND ac-ghin1h7-shard-00-02.u4vigoh.mongodb.net[39m
+2026-02-21 01:16:00:160 [31merror[39m: [31m[0a085d50-29a5-4d1d-8e3c-5d8165629ea0] POST /api/auth/login - status: 500 - message: getaddrinfo ENOTFOUND ac-ghin1h7-shard-00-02.u4vigoh.mongodb.net[39m
+2026-02-21 01:17:14:1714 [31merror[39m: [31m[78accdb5-79e0-46ab-aa25-77fa59db6565] POST /api/auth/login - status: 500 - message: getaddrinfo ENOTFOUND ac-ghin1h7-shard-00-02.u4vigoh.mongodb.net[39m
+2026-02-21 01:19:30:1930 [31merror[39m: [31m[76d4e729-bde1-46df-8b78-2b6bf48ced23] PUT /api/admin/opportunities/699815b28aba64c02a91056e/status - status: 403 - message: Access denied: Admin protocol required.[39m
+2026-02-21 01:22:12:2212 [31merror[39m: [31m[716007c1-4da6-41e5-b845-fe5bd998934b] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-21 01:22:24:2224 [31merror[39m: [31m[2232f00e-851b-4cf1-8d38-b1255726457b] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-21 01:22:24:2224 [31merror[39m: [31m[a53e3703-65ee-40da-9d07-e9964962e2bc] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-21 01:22:24:2224 [31merror[39m: [31m[9b6c3085-9630-467f-8c46-4e92f7c64a08] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-21 01:31:36:3136 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-21 01:31:36:3136 [31merror[39m: [31m[02d20f38-b095-4657-b5bd-b2015268355b] POST /api/upload/resume - status: 400 - message: The PDF file structure is unreadable or corrupted. Please try a different version.[39m
+2026-02-21 02:00:03:03 [31merror[39m: [31m[AI_SERVICE] PDF Extraction Error: pdf is not a function[39m
+2026-02-21 02:13:13:1313 [31merror[39m: [31m[38163429-9a67-42bb-a57a-579d254c0b17] GET /api/notifications?page=1 - status: 401 - message: Not authorized[39m
+2026-02-21 02:13:13:1313 [31merror[39m: [31m[88253bf6-293a-4a03-9993-588a084f6409] GET /api/student-profile/me - status: 401 - message: Not authorized[39m
+2026-02-21 02:13:13:1313 [31merror[39m: [31m[5d451989-0120-48e2-8859-8ecddec961a0] GET /api/notifications - status: 401 - message: Not authorized[39m
