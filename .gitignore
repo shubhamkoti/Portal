@@ -1,7 +1,18 @@
-node_modules/
+# env files
 .env
+.env.*
+*.env
+
+# node
+node_modules/
+
+# build
 dist/
-.DS_Store
-client/node_modules/
-server/node_modules/
-client/dist/
+build/
+
+# logs
+*.log
+
+node_modules
+dist
+build
